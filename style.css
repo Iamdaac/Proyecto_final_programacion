@@ -230,6 +230,14 @@ h1{
     border-radius: 25px;
     height: 430px;
 }
+
+#foto{
+    background-color: #fff;
+    padding: 12px;
+    margin: 20px;
+    border-radius: 25px;
+    height: 430px;
+}
 /* Titulo de los videos */
 .titVideo{
     font-family: 'Lato', sans-serif;
@@ -265,6 +273,16 @@ iframe{
     border: none;
     border-radius: 12px; 
 }
+
+/*Imagenes de contacto*/
+.fotocontainer{
+    width: 250px;
+    height: 350px;
+  
+}
+
+
+
 /* Parrafo dentro de las cards del video */
 .phaVideo{
     font-size: 20px;

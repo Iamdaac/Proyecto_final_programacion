@@ -281,6 +281,15 @@ iframe{
   
 }
 
+/*Titulo de contacto*/
+
+.titulocontac {
+    padding: 15px;
+    background-color: #fff;
+    width: fit-content;
+    margin: 15px auto;
+    border-radius: 30px;
+}
 
 
 /* Parrafo dentro de las cards del video */

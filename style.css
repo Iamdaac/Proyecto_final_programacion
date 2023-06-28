@@ -387,11 +387,13 @@ td {
     text-align: center;
 }
 .espacioBlanco {
-    border: none;
+    border: none; /*deshabilitar la vista de las filas y columnas que no se muestran en la tabla periodica*/
 }
 table{
     margin: 40px;
 }
+
+/*colorizacion de las diferentes celdas de la tabla periodica*/
 .grupo_XV {
     background-color: #ddabff;
 }

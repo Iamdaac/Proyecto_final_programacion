@@ -430,3 +430,72 @@ footer p{
     font-size: 12px;
     opacity: 0.75;
 }
+
+
+
+/*Estilo de la tabla periodica*/
+td {
+    width: 100px;
+    border: 5px solid black;
+    text-align: center;
+    
+}
+
+.espacioBlanco {
+    border: none;
+}
+
+table{
+    margin: 40px;
+}
+
+.grupo_XV {
+    background-color: #ddabff;
+}
+
+.grupo_I {
+    background-color: #f7caac;
+}
+
+.grupo_II {
+    background-color: #ffe599;
+}
+
+.grupo_III_XII {
+    background-color: #ffff00;
+}
+  
+.grupo_XVIII {
+    background-color: #00ccff;
+}
+
+.grupo_XVII {
+    background-color: #ff66ff;
+}
+
+.grupo_XIV {
+    background-color: #68fb61;
+}
+
+.grupo_XX {
+    background-color: #e2efd9;
+}
+
+a{
+    text-decoration: none; /*quitarle la decoracion a la etiqueta a*/
+    cursor: pointer;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none; /*quitarle la decoración a la etiqueta luego de ser visitada*/
+  }
+
+  td:hover{
+    background-color: #fff;
+}
+  
+td:active{
+    background-color: rgb(0, 51, 102);
+}
+  

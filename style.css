@@ -565,3 +565,9 @@ footer p{
     font-size: 12px;
     opacity: 0.75;
 }
+/* clase para quitar la linea y cambiar el color del hipervinculo*/
+.hipervinculo{
+    text-decoration: none;
+    float: right;
+    color: black;
+}

@@ -15,13 +15,16 @@
 body{ 
     font-family: 'Poppins', sans-serif;
 }
+/* Estilo para la barra lateral ancho*/
 ::-webkit-scrollbar{
     width: 7px;
 }
+/* Estilo para barra lateral */
 ::-webkit-scrollbar-thumb{
     border-radius: 25px;
     background: linear-gradient(0deg, rgba(19,234,251,1) 0%, rgba(140,0,246,1) 100%);
 }
+/* Estilo para el trayecto de la barra lateral */
 ::-webkit-scrollbar-track{
     background-color: #e4e4e4;
     border-radius: 25px;
@@ -89,13 +92,13 @@ h1{
     margin-top: 12px;
 }
 /*Contenedor del dropdown*/
-.dropdown {
+.dropdownMenu {
     float: left;
     overflow: hidden;
     margin-top: 12px;
 }
 /*Botones del dropdown*/
-.dropdown .dropbtn {
+.dropdownMenu .dropbtn {
     font-size: 20px;
     border: none;
     outline: none;
@@ -106,12 +109,12 @@ h1{
     margin: 0; 
 }
 /*Hover de los links*/
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdownMenu:hover .dropbtn {
     background-color: #fff;
     color: #2100A7;
 }
 /*Dropdown contenido*/
-.dropdown-content {
+.contentDropdown {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -120,7 +123,7 @@ h1{
     z-index: 1;
 }
 /*Links dentro del dropdown*/
-.dropdown-content a {
+.contentDropdown a {
     float: none;
     color: black;
     padding: 12px 16px;
@@ -129,11 +132,11 @@ h1{
     text-align: left;
 }
 /*Hover de los links dentro del dropdown*/
-.dropdown-content a:hover {
+.contentDropdown a:hover {
     background-color: #ddd;
 }
 /*Mostrar el dropdown menu con hover*/
-.dropdown:hover .dropdown-content {
+.dropdownMenu:hover .contentDropdown {
     display: block;
 }
 /*ESTILO PARA PAG. REGISTRO EXITOSO*/
@@ -521,11 +524,19 @@ footer{
     flex-direction: column;
 }
 /* Iconos y el menu del pie de pagina */
-footer .social_icon, .footerMenu{
+footer .social_icon{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+footer .footerMenu{
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;    
 }
 /* Quitar el estilo de lista */
 footer .social_icon li, .footerMenu li{
